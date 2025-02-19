@@ -60,7 +60,7 @@ public class MazeGame extends Application {
             else if (event.getCode() == KeyCode.RIGHT) newX += STEP;
 
             // Check if new position is on a valid path before moving
-            if (isValidMove(newX, newY)) {
+            if (isValidMove(newX + (robot.getFitWidth()/2), newY + (robot.getFitHeight()/2))) {
                 robot.setX(newX);
                 robot.setY(newY);
             }
