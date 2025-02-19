@@ -18,20 +18,12 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-<<<<<<< HEAD
-            <version>17.0.6</version>
-=======
             <version>23.0.1</version>
->>>>>>> da5a30d (Fixed the robot movement and added some debugging tools)
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-<<<<<<< HEAD
-            <version>17.0.6</version>
-=======
             <version>23.0.1</version>
->>>>>>> da5a30d (Fixed the robot movement and added some debugging tools)
         </dependency>
 
         <dependency>
