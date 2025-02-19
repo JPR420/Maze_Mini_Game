@@ -86,16 +86,15 @@ public class MazeGame extends Application {
 
         // Print the color value for debugging
         System.out.println("Pixel at (" + px + ", " + py + ") - Color: " + color);
-
+        System.out.println(isWall(color));
         return !isWall(color); // Only allow movement if it's not a wall
     }
 
     // Helper method to check if a pixel is a wall (blue)
     private boolean isWall(Color color) {
-        // Check if the color is close to blue with tolerance
-        return (Math.abs(color.getRed() - 0.0) < 0.1 &&
-                Math.abs(color.getGreen() - 0.0) < 0.1 &&
-                Math.abs(color.getBlue() - 1.0) < 0.1);
+        Color white = Color.web("#FFFFFF");
+
+        return !(color.equals(white));
     }
 
     public static void main(String[] args) {
