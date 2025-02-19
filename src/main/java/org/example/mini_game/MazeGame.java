@@ -73,6 +73,7 @@ public class MazeGame extends Application {
 
     // Check if the new position is valid (not on a blue pixel)
     private boolean isValidMove(double x, double y) {
+
         // Map the robot's position to the original image coordinates
         int px = (int) (x * scaleX);
         int py = (int) (y * scaleY);
