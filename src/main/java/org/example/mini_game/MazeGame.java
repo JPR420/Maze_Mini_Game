@@ -33,6 +33,8 @@ public class MazeGame extends Application {
         scaleX = mazeImage.getWidth() / maze.getFitWidth();
         scaleY = mazeImage.getHeight() / maze.getFitHeight();
 
+
+
         // Get pixel reader from the maze image
         pixelReader = mazeImage.getPixelReader();
 
