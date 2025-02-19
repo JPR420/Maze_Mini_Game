@@ -10,6 +10,8 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+import java.util.Objects;
+
 public class MazeGame extends Application {
 <<<<<<< HEAD
 
@@ -22,7 +24,7 @@ public class MazeGame extends Application {
     private double scaleX, scaleY; // Scaling factors
 
     // Load maze image
-    private Image mazeImage = new Image(getClass().getResourceAsStream("/maze.png")); // Store maze image reference
+    private Image mazeImage = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/maze.png"))); // Store maze image reference
 
     @Override
     public void start(Stage stage) {
