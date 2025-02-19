@@ -11,8 +11,11 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class MazeGame extends Application {
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> da5a30d (Fixed the robot movement and added some debugging tools)
     private static final int STEP = 5; // Movement step size
     private ImageView robot;
     private PixelReader pixelReader;
